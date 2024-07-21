@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test automation">
+    <test name="Partners">
+        <groups>
+            <run>
+                <include name="testGetMan"/>
+                <include name="testGetWoman"/>
+
+            </run>
+        </groups>
+        <classes>
+            <class name="test1.ManTests"></class>
+            <class name="test1.WomanTests"></class>
+        </classes>
+
+
+    </test>
+
+</suite>
