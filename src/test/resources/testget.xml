@@ -3,8 +3,8 @@
     <test name="Partners">
         <groups>
             <run>
-                <include name="testGetMan"/>
-                <include name="testGetWoman"/>
+                <include name="testGetSetMan"/>
+                <include name="testGetSetWoman1"/>
 
             </run>
         </groups>
